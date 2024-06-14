@@ -2,7 +2,7 @@ version: '3'
 
 services:
   geminiprochat:
-    build: .
+    image: ghcr.io/babaohuang/geminiprochat:main
     container_name: geminiprochat
     restart: always
     ports:
